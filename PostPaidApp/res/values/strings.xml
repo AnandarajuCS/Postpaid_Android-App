@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LITE DROID</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world"></string>
+    <string name="calls_text">Calls</string>
+    <string name="sms_text">SMS</string>
+    <string name="data_text">Mobile Data Usage </string>
+    <string name="bestplan_text">Your Best Plan</string>
+    <string name="title_activity_display_options">DisplayOptionsActivity</string>
+    <string name="year_spinner">Select Year</string>
+    <string name="month_spinner">Select Month</string>
+    <string name="title_activity_display_best_plan">DisplayBestPlanActivity</string>
+    <string name="analytics_chart">Analytics</string>
+    <string name="title_activity_display_chart">DisplayChartActivity</string>
+    <string name="title_activity_main_screen">MainScreenActivity</string>
+    <string name="your_usage">Know Your Usage</string>
+    <string name="your_best_plan">Find your Best Plan here </string>
+    <string name="bill_pay">Bill Payment</string>
+    <string name="set_alarm">Alarms </string>
+    <string name="title_activity_usage_screen">UsageScreenActivity</string>
+    <string name="pie_chart_text">Pie-Chart</string>
+    <string name="title_activity_best_plan_list">BestPlanList</string>
+    <string name="title_activity_best_plan_tryout">BestPlanTryout</string>
+    <string name="title_activity_confirm_activation_suggested_plan">ConfirmActivationSuggestedPlan</string>
+    <string name="title_activity_coming_soon">ComingSoonActivity</string>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.ericsson.hackathon"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.ericsson.hackathon.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.ericsson.hackathon.DisplayOptionsActivity"
+            android:label="@string/title_activity_display_options" >
+        </activity>
+        <activity
+            android:name="org.ericsson.hackathon.DisplayBestPlanActivity"
+            android:label="@string/title_activity_display_best_plan" >
+        </activity>
+        <activity
+            android:name="org.ericsson.hackathon.DisplayChartActivity"
+            android:label="@string/title_activity_display_chart" >
+        </activity>
+        <activity
+            android:name="org.ericsson.hackathon.MainScreenActivity"
+            android:label="@string/title_activity_main_screen" >
+        </activity>
+        <activity
+            android:name="org.ericsson.hackathon.UsageScreenActivity"
+            android:label="@string/title_activity_usage_screen" >
+        </activity>
+        <activity android:name="org.achartengine.GraphicalActivity" />
+        <activity
+            android:name="org.ericsson.hackathon.BestPlanList"
+            android:label="@string/title_activity_best_plan_list" >
+        </activity>
+        <activity
+            android:name="org.ericsson.hackathon.BestPlanTryout"
+            android:label="@string/title_activity_best_plan_tryout" >
+        </activity>
+        <activity
+            android:name="org.ericsson.hackathon.ConfirmActivationSuggestedPlan"
+            android:label="@string/title_activity_confirm_activation_suggested_plan" >
+        </activity>
+        <activity
+            android:name="org.ericsson.hackathon.ComingSoonActivity"
+            android:label="@string/title_activity_coming_soon" >
+        </activity>
+    </application>
+
+</manifest>
